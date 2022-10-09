@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int t,n,total,alloc;
+    scanf("%d",&t);
+    while(t>0)
+    {
+        scanf("%d %d %d",&n,&total,&alloc);
+        if((n+alloc)<=total)
+        printf("Yes\n");
+        else
+        printf("No\n");
+        t--;
+    }
+	// your code goes here
+	return 0;
+}
+

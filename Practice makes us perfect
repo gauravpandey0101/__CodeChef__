@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int a[4],count = 0,i,n=4;
+	
+	for(i=1; i<=n; i++)
+	{
+	    scanf("%d", &a[i]);
+	    if(a[i] >= 10 )
+	    {
+	        count++;
+	    }
+	}
+	printf("%d" , count);
+	return 0;
+}
+

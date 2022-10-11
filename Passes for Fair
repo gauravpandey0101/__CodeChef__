@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main(void) 
 {
-	// your code goes here
 	int cases,i,a,b;
 	scanf("%d" ,&cases);
 	for(i=0; i<cases; i++)
